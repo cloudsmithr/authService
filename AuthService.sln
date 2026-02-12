@@ -17,6 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7761A747
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.UnitTests", "tests\AuthService.UnitTests\AuthService.UnitTests.csproj", "{5D6D427C-7B39-4AA9-9803-EA8C64BD0793}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{3A24A9CD-4811-47D8-B51B-0463A80A9321}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		docker-compose.yml = docker-compose.yml
+		db_migration.sh = db_migration.sh
+		README.md = README.md
+		.github\workflows\deploy.yml = .github\workflows\deploy.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
